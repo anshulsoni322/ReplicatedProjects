@@ -108,3 +108,34 @@ a{
     width: fit-content;
     font-weight: 700;
 }
+.dark-badge{
+    background-color: #000;
+    color: #fff;
+}
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212;
+    padding: 1rem 0 1rem 0;
+    margin-left: 0.75rem;
+}
+.sticky-nav-icon img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.sticky-nav-option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item{
+    margin-right: 1rem;
+}
+@media (max-width: 1000px){
+    .hide{
+        display: none;
+    }
+}
