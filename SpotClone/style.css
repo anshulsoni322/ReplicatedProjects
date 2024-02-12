@@ -258,6 +258,20 @@ a{
 }
 .album-icon2{
     height: 2.1rem;
-    width: 2.1rem;
+    width: 1.8rem;
     margin-left: 0.5rem;
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.controls img{
+    margin-right: 0.5rem;
+}
+#control-icon3{
+    opacity: 0.7;
+}
+#control-icon4{
+    opacity: 0.7;
 }
